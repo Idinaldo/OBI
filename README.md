@@ -41,4 +41,12 @@ Eu decidi criar um repositório exclusivo para a OBI, pois desejo mostrar minha 
 
 Aqui irei publicar o máximo de resoluções de questões da OBI e de outras competições em C++ mas também em Python (que a propósito, foi a linguagem que eu escolhi usar em 2023). <br>
 <em>Here I will publish as many answers to OBI questions and other competitions in C++ but also in Python (which, by the way, was the language I chose to use in 2023). </em><br>
+
+
+
+
+
+
+
+Obs: os códigos em C++ e/ou Python postados aqui são exclusivamente relacionados a OBI e outras competições de programação. Caso queira ver outros códigos meus de Python, C++, Javascript ou outras linguagens, acesse o repositório da mesma.
 </div>
