@@ -4,7 +4,7 @@
 
 <div align="justify">
 Em 2023, eu participei, pela primeira vez, da Olimpíada Brasileira de Informática (OBI, como é melhor conhecida). <br>
-<em>In 2023, I participated for the first time in the Brazilian Informatics Olympiad (OBI, as it is better known).</em> <br>
+<em>In 2023, I participated for the first time in the Brazilian Informatics Olympiad (OBI, as it is better known).</em><br>
 
 <br>
 
