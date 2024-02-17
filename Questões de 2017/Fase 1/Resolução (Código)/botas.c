@@ -29,8 +29,7 @@ int main(void)
     int pares = calculaPares(botas, qtd_botas);
     printf("%i\n", pares);
 
-    return 0
-    
+    return 0;
 }
 
 int calculaPares(DTBotas array[], int len)
