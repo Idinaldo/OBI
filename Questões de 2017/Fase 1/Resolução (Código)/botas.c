@@ -1,4 +1,3 @@
-#include <cs50.h>
 #include <stdio.h>
 
 typedef struct
@@ -13,14 +12,15 @@ int calculaPares(DTBotas array[], int len);
 int main(void)
 {
 
-    int qtd_botas = get_int("");
-    DTbotas botas[qtd_botas+10];
+    int qtd_botas = 0;
+    scanf("%d", &qtd_botas);
+    DTBotas botas[qtd_botas+10];
 
     for (int i = 0; i < qtd_botas; i++)
     {
-        int tamanho_bota;
-        char space, lado_bota;
-        scanf("%d%c%c", tamanho_bota, space, lado_bota);
+        int tamanho_bota = 0;
+        char space = ' ', lado_bota = ' ';
+        scanf("%d\t%c", &tamanho_bota, &lado_bota);
 
         botas[i].tamanho = tamanho_bota;
         botas[i].lado = lado_bota;
@@ -35,10 +35,10 @@ int main(void)
 int calculaPares(DTBotas array[], int len)
 {
 
-    int qtd_pares;
-    for (int i = 0; i < len; i++)
+    int qtd_pares = 0;
+    for (int i = 0; i < len-2; i++)
     {
-        for (int j = 0; j < len; j++)
+        for (int j = 1; j < len; j++)
         {
             if (array[i].tamanho == array[j].tamanho)
             {
