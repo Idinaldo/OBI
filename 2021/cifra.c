@@ -14,7 +14,7 @@ int main()
     char palavra[30];
 
     int pos = 0;
-    while (scanf("%c", &palavra) != -1){};
+    while (scanf("%s", &palavra) != -1){};
 
     int len = strlen(palavra);
     for (int i = 0; i < len; i++)
