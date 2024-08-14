@@ -1,5 +1,3 @@
-
-
 def printMatrix(matrix):
     for line in matrix:
         for column in line:
@@ -47,7 +45,6 @@ for i in range(0, steps):
 
             # Privando apenas para elementos que têm os 8 vizinhos
             if 0 < j < lim and 0 < k < lim:
-                # Linha Acima
                 vizinhos = [
                 
                     # Linha Acima
